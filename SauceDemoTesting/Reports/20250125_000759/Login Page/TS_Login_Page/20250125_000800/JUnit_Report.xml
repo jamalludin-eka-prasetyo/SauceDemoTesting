@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login_Page" time="6.859" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Login_Page" tests="1" failures="0" errors="0" time="6.859" skipped="0" timestamp="25-01-2025T00:08:06" hostname="jamal - Jamal-HP" id="Test Suites/Login Page/TS_Login_Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/home/jamal/Downloads/Belajar/SauceDemoTesting/SauceDemoTesting/Reports/20250125_000759/Login Page/TS_Login_Page/20250125_000800"/>
+         <property name="logFiles" value="/home/jamal/Downloads/Belajar/SauceDemoTesting/SauceDemoTesting/Reports/20250125_000759/Login Page/TS_Login_Page/20250125_000800/execution0.log"/>
+         <property name="attachments" value="/home/jamal/Downloads/Belajar/SauceDemoTesting/SauceDemoTesting/Reports/20250125_000759/Login Page/TS_Login_Page/20250125_000800/1737738491974.png"/>
+         <property name="hostName" value="jamal - Jamal-HP"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="cb5b0378904e522199d0e2cfc2623069"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="6.714" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[25-01-2025T00:08:06 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+25-01-2025T00:08:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-01-2025T00:08:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-01-2025T00:08:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-01-2025T00:08:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-01-2025T00:08:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+25-01-2025T00:08:09 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+25-01-2025T00:08:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login_Page/Login Confirmation_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/Login_Page/Login Confirmation_Swag Labs' are matched.
+
+25-01-2025T00:08:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login_Page/Login Confirmation_Swag Labs' are matched.
+
+25-01-2025T00:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/input_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Login_Page/input_user-name'
+
+25-01-2025T00:08:11 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/input_user-name'
+
+25-01-2025T00:08:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/input_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Login_Page/input_password'
+
+25-01-2025T00:08:11 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_Page/input_password'
+
+25-01-2025T00:08:11 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+25-01-2025T00:08:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+25-01-2025T00:08:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/jamal/Downloads/Belajar/SauceDemoTesting/SauceDemoTesting/Reports/20250125_000759/Login Page/TS_Login_Page/20250125_000800/1737738491974.png]]
+
+25-01-2025T00:08:12 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/input_login-button")): Object: 'Object Repository/Login_Page/input_login-button' is clicked on
+
+25-01-2025T00:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/input_login-button' is clicked on
+
+25-01-2025T00:08:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login_Page/Validate_Sudah_login"), "Products"): Actual text and expected text of test object 'Object Repository/Login_Page/Validate_Sudah_login' are matched.
+
+25-01-2025T00:08:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login_Page/Validate_Sudah_login' are matched.
+
+25-01-2025T00:08:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-01-2025T00:08:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-01-2025T00:08:06 - [TEST_SUITE][PASSED] - TS_Login_Page: Test Cases/Login/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
