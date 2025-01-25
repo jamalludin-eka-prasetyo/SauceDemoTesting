@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h3_Alert_Username and passworddo not match</name>
+   <name>h3_Epic sadface Username and password do not match any user in this service</name>
    <tag></tag>
-   <elementGuidId>72c6896e-df08-4395-bd77-96d8d68c0170</elementGuidId>
+   <elementGuidId>8c5787c9-a592-4a01-b0b9-eb4e512e889b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h3[@data-test=&quot;error&quot;]</value>
+         <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>800b325b-2a0f-4ef3-b28a-dd5090cd8d65</webElementGuid>
+      <webElementGuid>f0cc12ad-c158-4829-82ab-a056904688aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>6aeff7f7-1327-4e6c-81e2-f6111193a576</webElementGuid>
+      <webElementGuid>4628ceb2-6227-415b-a37b-a3dd9afb992f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Epic sadface: Username and password do not match any user in this service</value>
-      <webElementGuid>1ea73d4c-3504-4010-aef6-986689a0efae</webElementGuid>
+      <webElementGuid>db25f46a-8640-4166-9668-68bc2e496c2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login_button_container&quot;)/div[@class=&quot;login-box&quot;]/form[1]/div[@class=&quot;error-message-container error&quot;]/h3[1]</value>
-      <webElementGuid>5d158c89-c265-4794-a42a-a44d58afb352</webElementGuid>
+      <webElementGuid>fdab5493-870c-4094-bcaf-8e5589564c64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
-      <webElementGuid>aba78f7e-5b92-4b63-9b34-748602f2160a</webElementGuid>
+      <webElementGuid>cd920ea6-cd93-4b4e-8f97-9643d9426e71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::h3[1]</value>
-      <webElementGuid>87085f68-f869-4ac1-b0c6-50800d0bf288</webElementGuid>
+      <webElementGuid>d497492f-043a-44a3-a486-3a41692bd23c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepted usernames are:'])[1]/preceding::h3[1]</value>
-      <webElementGuid>22de9744-c8d5-4f83-9d80-d1b005d112eb</webElementGuid>
+      <webElementGuid>14de3379-19bf-49b4-a50b-7f11b61bf1c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Epic sadface: Username and password do not match any user in this service']/parent::*</value>
-      <webElementGuid>a1aa9848-16c2-4e39-82d2-adc4135396cc</webElementGuid>
+      <webElementGuid>5d7b577f-9e2c-45bf-9c3f-0a4a5ec8a00d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>92a582e4-fb8f-4dbb-9569-d145c60e465c</webElementGuid>
+      <webElementGuid>47d0f972-d570-4668-9384-8320e206237d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Epic sadface: Username and password do not match any user in this service' or . = 'Epic sadface: Username and password do not match any user in this service')]</value>
-      <webElementGuid>1dc7fb3b-c300-4e68-97dc-c3c475c74eda</webElementGuid>
+      <webElementGuid>fe2359ea-15fa-4b7c-90e3-db1c8719cad9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
