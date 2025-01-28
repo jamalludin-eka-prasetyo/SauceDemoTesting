@@ -14,6 +14,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
@@ -41,23 +42,34 @@ for (int i=1;i<=testdataLogin.getRowNumbers();i++) {
 	
 	if ( expectedResult == "Failures")
 		{
-			WebUI.delay(3)
-			WebUI.verifyElementPresent(findTestObject('Object Repository/Login_Page/h3_Alert_Username and passworddo not match'), 0, FailureHandling.STOP_ON_FAILURE)
-//			WebUI.verifyElementText(findTestObject('Object Repository/Login_Page/h3_Alert_Username and passworddo not match'), 'Epic sadface: Username and password do not match any user in this service', FailureHandling.STOP_ON_FAILURE)
+			WebUI.verifyElementPresent(findTestObject('Object Repository/Login_Page/h3_Alert_Username and passworddo not match'), 10, FailureHandling.STOP_ON_FAILURE)
+			WebUI.verifyElementText(findTestObject('Object Repository/Login_Page/h3_Alert_Username and passworddo not match'), 'Epic sadface: Username and password do not match any user in this service', FailureHandling.STOP_ON_FAILURE)
 			WebUI.comment("Login Gagal")
 			String message_failures = "Login gagal menggunakan username : " +user+ " dam Password : " +password
 			print(message_failures)
 		}
 		else if (expectedResult == "Success")
-			{
-				WebUI.verifyElementNotPresent(findTestObject('Object Repository/Login_Page/h3_Alert_Username and passworddo not match'), 0, FailureHandling.STOP_ON_FAILURE)
-				WebUI.verifyElementText(findTestObject('Object Repository/Login_Page/Validate_Sudah_login'), 'Products')
-				WebUI.comment("Login Berhasil")
-				String message_success = "Login berhasil menggunakan username : " +user+ " dan password : " +password
-				print(message_success)
-				WebUI.click(findTestObject('Object Repository/Login_Page/Burger_menu'))
-				WebUI.click(findTestObject('Object Repository/Login_Page/a_Logout'))
-			}
+		{
+			WebUI.verifyElementNotPresent(findTestObject('Object Repository/Login_Page/h3_Alert_Username and passworddo not match'), 10, FailureHandling.STOP_ON_FAILURE)
+			WebUI.verifyElementText(findTestObject('Object Repository/Login_Page/Validate_Sudah_login'), 'Products')
+			WebUI.comment("Login Berhasil")
+			String message_success = "Login berhasil menggunakan username : " +user+ " dan password : " +password
+			print(message_success)
+			WebUI.click(findTestObject('Object Repository/Login_Page/Burger_menu'))
+			WebUI.click(findTestObject('Object Repository/Login_Page/a_Logout'))
+		} 
+		else if (expectedResult == "uname require")
+		{
+			WebUI.delay(3)
+			WebUI.verifyElementPresent(findTestObject('Object Repository/Login_Page/alert_h3_Username is required'), 10 , FailureHandling.STOP_ON_FAILURE)
+			WebUI.verifyElementText(findTestObject('Object Repository/Login_Page/alert_h3_Username is required'), 'Epic sadface: Username is required')
+		} 
+		else if (expectedResult == "pass require")
+		{
+			WebUI.delay(3)
+			WebUI.verifyElementPresent(findTestObject('Object Repository/Login_Page/alert_h3_Username is required'), 10 , FailureHandling.STOP_ON_FAILURE)
+			WebUI.verifyElementText(findTestObject('Object Repository/Login_Page/alert_h3_Username is required'), 'Epic sadface: Password is required')
+		}
 }
 WebUI.closeBrowser()
 
