@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>fb829f1c-2a4b-4575-945a-2d9861fdcf37</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76cd8716-f215-48d2-bdea-b6acd8904d0a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>354d8230-bdff-4066-844f-69ab31b38802</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e054281e-e88a-49b7-815e-5ae5d242144f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>76cd8716-f215-48d2-bdea-b6acd8904d0a</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>354d8230-bdff-4066-844f-69ab31b38802</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e054281e-e88a-49b7-815e-5ae5d242144f</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
 </TestCaseEntity>

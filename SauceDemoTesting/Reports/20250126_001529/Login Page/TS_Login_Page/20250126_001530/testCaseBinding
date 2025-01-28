@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","user":"\u0027standard_user\u0027"}}
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce1\u0027","user":"\u0027locked_out_user\u0027"}}
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","user":"\u0027problem_user\u0027"}}
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","user":"\u0027performance_glitch_user\u0027"}}
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce2\u0027","user":"\u0027error_user\u0027"}}
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027Tester_Password\u0027","user":"\u0027visual_user\u0027"}}
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","user":"\u0027Tester_user\u0027"}}
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","user":"\u0027Tester_user_1\u0027"}}
+{"testCaseName":"Test Cases/Login/Login","testCaseId":"Test Cases/Login/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","user":"\u0027Tester_user_2\u0027"}}

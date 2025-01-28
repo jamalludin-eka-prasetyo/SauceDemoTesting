@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Login From Intenal Data</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e76fe851-5aee-4d39-aff6-99499caa6b3a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>standard_user secret_sauce Passed</data>
+   <data>locked_out_user secret_sauce1 Failures</data>
+   <data>problem_user secret_sauce Passed</data>
+   <data>performance_glitch_user secret_sauce Passed</data>
+   <data>error_user secret_sauce2 Failures</data>
+   <data>visual_user Tester_Password Failures</data>
+   <data>Tester_user secret_sauce Failures</data>
+   <data>Tester_user_1 secret_sauce Failures</data>
+   <data>Tester_user_2 secret_sauce Failures</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>user</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>expectedResult</name>
+      <size>9</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

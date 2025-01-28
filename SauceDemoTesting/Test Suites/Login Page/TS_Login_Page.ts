@@ -16,6 +16,33 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a610f4df-565d-46a2-b66a-f0944e10cdfd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data Login/Login From Intenal Data</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>a610f4df-565d-46a2-b66a-f0944e10cdfd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>76cd8716-f215-48d2-bdea-b6acd8904d0a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a610f4df-565d-46a2-b66a-f0944e10cdfd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>354d8230-bdff-4066-844f-69ab31b38802</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a610f4df-565d-46a2-b66a-f0944e10cdfd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>e054281e-e88a-49b7-815e-5ae5d242144f</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

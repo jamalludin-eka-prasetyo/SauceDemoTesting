@@ -723,3 +723,59 @@
   <escapedJava>false</escapedJava>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-01-25T17:15:14.003402843Z</date>
+  <millis>1737825314003</millis>
+  <nanos>402843</nanos>
+  <sequence>901</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Data Login/Login From Intenal Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-25T17:15:14.028183631Z</date>
+  <millis>1737825314028</millis>
+  <nanos>183631</nanos>
+  <sequence>902</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-25T17:15:29.083262351Z</date>
+  <millis>1737825329083</millis>
+  <nanos>262351</nanos>
+  <sequence>903</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2197</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Data Login/Login From Intenal Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-25T17:15:29.086607217Z</date>
+  <millis>1737825329086</millis>
+  <nanos>607217</nanos>
+  <sequence>904</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2197</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>
